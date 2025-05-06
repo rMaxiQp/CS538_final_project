@@ -1,0 +1,39 @@
+\documentclass[sigconf,10pt,nonacm]{acmart}
+\settopmatter{printfolios=true,printccs=false,printacmref=false}
+
+\title{Title of Your CS 538 Final Paper}
+\author{Name1, Name2, Name3}
+\affiliation{
+  \institution{
+    \vspace{0.5\baselineskip}
+    {\Large University of Illinois Urbana-Champaign}
+    \vspace{\baselineskip}}
+  \city{}
+  \country{}
+}
+
+\begin{document}
+
+\input{sections/abstract}
+
+\maketitle
+
+\input{sections/introduction}
+\input{sections/motivation}
+\input{sections/design}
+\input{sections/implementation}
+\input{sections/evaluation}
+\input{sections/related-work}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+% below does not count toward the 6-page limit
+\clearpage
+
+\input{sections/acknowledgements}
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\input{sections/appendices}
+
+\end{document}
